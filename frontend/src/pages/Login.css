@@ -1,0 +1,61 @@
+/* 🌌 Background */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* 📦 Box */
+.login-box {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* 🔥 Title */
+.login-box h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* 📥 Input */
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* 🔘 Button */
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background: #667eea;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-btn:hover {
+  background: #5a67d8;
+}
+
+/* 🔗 Register */
+.register-text {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.register-text span {
+  color: #667eea;
+  cursor: pointer;
+  font-weight: bold;
+}
